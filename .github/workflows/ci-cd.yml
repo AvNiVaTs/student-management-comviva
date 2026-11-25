@@ -86,7 +86,7 @@ jobs:
             docker run -d \
               --name springboot-app \
               --restart unless-stopped \
-              -p 8080:8080 \
+              -p 8085:8085 \
               $IMAGE
 
             docker image prune -f
